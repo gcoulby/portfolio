@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/projects.scss",
+        "../src/partials/projects/_nav.scss",
+        "../src/partials/projects/_page.scss"
+    ],
+    "names": [],
+    "file": "projects.css"
+}
