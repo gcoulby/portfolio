@@ -8,8 +8,8 @@ function PublicationItem({ title, publicationDate, publicationType, publisher, d
                 <div className="flex-grow-1">
                     <h3 className="mb-0">{title}</h3>
                     <h5 className="mr-2">{publicationType}</h5>
-                    <h5>Published {publicationDate.toLocaleString("en-GB", dtOptions)}</h5>
-                    <h5 className="ml-2">{authorType}</h5>
+                    <h5 className="mr-2">Published {publicationDate.toLocaleString("en-GB", dtOptions)}</h5>
+                    <h5>{authorType}</h5>
                     <div className="subheading mb-3">{publisher}</div>
                     <p>
                         <b>Abstract:</b> {abstract}

@@ -9,9 +9,13 @@ import Interests from "../components/interests";
 import Awards from "../components/awards";
 import "../styles/css-compiled/main.css";
 import Projects from "./projects";
+// import "../styles/css-compiled/theme.css";
+// import "../styles/css-compiled/styles.css";
+// import "../styles/theme.css";
+// import "../styles/styles.css";
 function Home() {
     return (
-        <main id="" class="title-center title-h1h2 modular fixed-nav">
+        <>
             <Nav />
             <About id="about" />
             <hr className="m-0"></hr>
@@ -28,7 +32,7 @@ function Home() {
             <Awards id="awards" />
             {/* <hr className="m-0"></hr>
             <Projects id="projects" /> */}
-        </main>
+        </>
     );
 }
 
