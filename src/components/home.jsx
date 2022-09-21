@@ -9,10 +9,7 @@ import Interests from "../components/interests";
 import Awards from "../components/awards";
 import "../styles/css-compiled/main.css";
 import Projects from "./projects";
-// import "../styles/css-compiled/theme.css";
-// import "../styles/css-compiled/styles.css";
-// import "../styles/theme.css";
-// import "../styles/styles.css";
+
 function Home() {
     return (
         <>
@@ -30,8 +27,8 @@ function Home() {
             <Interests id="interests" />
             <hr className="m-0"></hr>
             <Awards id="awards" />
-            {/* <hr className="m-0"></hr>
-            <Projects id="projects" /> */}
+            <hr className="m-0"></hr>
+            <Projects id="projects" />
         </>
     );
 }
