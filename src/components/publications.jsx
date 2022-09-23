@@ -22,14 +22,7 @@ function Publications() {
             doi: "https://doi.org/10.3390/ijerph17113995",
             abstract:
                 "Indoor environment quality (IEQ) can negatively affect occupant health and wellbeing. Air quality, as well as thermal, visual and auditory conditions, can determine how comfortable occupants feel within buildings. Some can be measured objectively, but many are assessed by interpreting qualitative responses. Continuous monitoring by passive sensors may be useful to identify links between environmental and physiological changes. Few studies localise measurements to an occupant level perhaps due to many environmental monitoring solutions being large and expensive. Traditional models for occupant comfort analysis often exacerbate this by not differentiating between individual building occupants. This scoping review aims to understand IEQ and explore approaches as to how it is measured with various sensing technologies, identifying trends for monitoring occupant health and wellbeing. Twenty-seven studies were reviewed, and more than 60 state-of-the-art and low-cost IEQ sensors identified. Studies were found to focus on the home or workplace, but not both. This review also found how wearable technology could be used to augment IEQ measurements, creating personalised approaches to health and wellbeing. Opportunities exist to make individuals the primary unit of analysis. Future research should explore holistic personalised approaches to health monitoring in buildings that analyse the individual as they move between environments.",
-            keywords: [
-                "Commercial Building",
-                "Residential Building",
-                "Internet of Things (IoT)",
-                "Health",
-                "Wellbeing",
-                "Indoor Environmental Quality (IEQ)",
-            ],
+            keywords: ["Commercial Building", "Residential Building", "Internet of Things (IoT)", "Health", "Wellbeing", "Indoor Environmental Quality (IEQ)"],
             authorType: "First Author",
         },
         {
@@ -104,6 +97,17 @@ function Publications() {
             abstract:
                 "Free-living assessment and remote monitoring is important for healthcare researchers. Moving research beyond the laboratory provides habitual environments for remote assessment that allows research to remain agile even when facing uncontrollable external factors e.g., the SARS-COV-2 pandemic. Emergent technologies have the potential to make this form of assessment feasible by providing accessible and affordable mechanisms for conducting free-living research. This paper presents findings from a study that was halted due to the pandemic, but this work highlighted a series of challenges that may present themselves to researchers conducting similar work. By transparently reporting the challenges and solutions rather than just methods, it is hoped that the lessons learned from this study could provide researchers with greater awareness in future studies.",
             keywords: ["Indoor Environmental Quality (IEQ)", "Internet of Things (IoT)", "Ubiquitous Sensing", "n-of-1", "pilot"],
+            authorType: "First Author",
+        },
+        {
+            title: "A protocol for longitudinal monitoring of individual building occupants and their environments",
+            publicationType: "Journal Article",
+            publicationDate: new Date(2022, 23, 9),
+            publisher: "PLOS ONE",
+            doi: "https://doi.org/10.1371/journal.pone.0274015",
+            abstract:
+                "Buildings account for approximately 40% of the energy consumption across the European Union, so there is a requirement to strive for better energy performance to reduce the global impact of urbanised societies. However, energy performant buildings can negatively impact building occupants (e.g., comfort, health and/or wellbeing) due to a trade-off between airtightness and air circulation. Thus, there is a need to monitor Indoor Environmental Quality (IEQ) to inform how it impacts occupants and hence redefine value within building performance metrics. An individualised study design would enable researchers to gain new insights into the effects of environmental changes on individuals for more targeted e.g., health interventions or nuanced and improved building design(s). This paper presents a protocol to conduct longitudinal monitoring of an individual and their immediate environment. Additionally, a novel approach to environmental perception gathering is proposed that will monitor environmental factors at an individual level to investigate subjective survey data pertaining to the participant’s perceptions of IEQ (e.g., perceived air quality, thermal conditions, light, and noise). This protocol has the potential to expose time-differential phenomena between environmental changes and an individual’s behavioural and physiological responses. This could be used to support building performance monitoring by providing an interventional assessment of building performance renovations. In the future it could also provide building scientists with a scalable approach for environmental monitoring that focuses specifically on individual health and wellbeing.",
+            keywords: ["Protocol", "Indoor Environmental Quality (IEQ)", "Internet of Things (IoT)", "n-of-1", "Methodology"],
             authorType: "First Author",
         },
     ]);

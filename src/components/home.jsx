@@ -27,8 +27,8 @@ function Home() {
             <Interests id="interests" />
             <hr className="m-0"></hr>
             <Awards id="awards" />
-            <hr className="m-0"></hr>
-            <Projects id="projects" />
+            {/* <hr className="m-0"></hr>
+            <Projects id="projects" /> */}
         </>
     );
 }

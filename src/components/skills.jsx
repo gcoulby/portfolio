@@ -11,13 +11,13 @@ function Skills() {
         },
         {
             title: "React",
-            level: "80",
+            level: "90",
             icon_type: "fa",
             icon_class: "fab fa-react",
         },
         {
             title: "Node.js",
-            level: "60",
+            level: "70",
             icon_type: "fa",
             icon_class: "fab fa-node-js",
         },
@@ -35,7 +35,7 @@ function Skills() {
         },
         {
             title: "C",
-            level: "45",
+            level: "60",
             icon_type: "ic",
             icon_class: "mdi:language-c",
         },
@@ -47,7 +47,7 @@ function Skills() {
         },
         {
             title: "C++",
-            level: "40",
+            level: "60",
             icon_type: "ic",
             icon_class: "mdi:language-cpp",
         },
@@ -125,13 +125,13 @@ function Skills() {
         },
         {
             title: "HTML5",
-            level: "95",
+            level: "99",
             icon_type: "fa",
             icon_class: "fab fa-html5",
         },
         {
             title: "css3",
-            level: "95",
+            level: "99",
             icon_type: "fa",
             icon_class: "fab fa-css3-alt",
         },
@@ -178,6 +178,7 @@ function Skills() {
                 <div className="resume-section-content">
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+                    <p style={{ fontStyle: "italic" }}>*Scales denote confidence using language or tool</p>
                     <ul className="list-inline dev-icons">
                         {skills
                             .sort(() => Math.random() - 0.5)

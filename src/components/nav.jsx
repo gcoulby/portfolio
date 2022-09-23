@@ -49,12 +49,12 @@ function Nav() {
             title: "Awards",
             active: false,
         },
-        {
-            anchor: "#projects",
-            icon: "fa fa-tasks",
-            title: "Projects",
-            active: false,
-        },
+        // {
+        //     anchor: "#projects",
+        //     icon: "fa fa-tasks",
+        //     title: "Projects",
+        //     active: false,
+        // },
     ]);
     return (
         <>
