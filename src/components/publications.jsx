@@ -102,7 +102,7 @@ function Publications() {
         {
             title: "A protocol for longitudinal monitoring of individual building occupants and their environments",
             publicationType: "Journal Article",
-            publicationDate: new Date(2022, 9, 23),
+            publicationDate: new Date(2022, 8, 23),
             publisher: "PLOS ONE",
             doi: "https://doi.org/10.1371/journal.pone.0274015",
             abstract:
