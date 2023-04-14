@@ -2,16 +2,15 @@ The Apalis Blurred Backgrounds Collection, was a collection of graphic resources
 
 This product is essentially a collection of blurred backgrounds in 8K Resolution (W:7680px H:4320px). They are all categorised under six categories _(Earth, Wind, Fire, Ultraviolet, Day & Night)_ based on the colour palettes used in each background.
 
-![photo of app in use](/projects/apalis-blurred-backgrouns/feature.png)
+![photo of app in use](/projects/apalis-blurred-backgrounds/feature.png)
 
 I later developed this concept further and developed a blurred background generator, for generating blurred backgrounds in web pages:
 
-<p class="codepen" data-height="300" data-theme-id="16501" data-default-tab="result" data-user="gcoulby" data-slug-hash="waPjmO" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blurred Background Generator">
-  <span>See the Pen <a href="https://codepen.io/gcoulby/pen/waPjmO">
+<iframe height="400" style="width: 100%;" scrolling="no" title="Blurred Background Generator" src="https://codepen.io/gcoulby/embed/waPjmO?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/gcoulby/pen/waPjmO">
   Blurred Background Generator</a> by GrahamCoulby (<a href="https://codepen.io/gcoulby">@gcoulby</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
