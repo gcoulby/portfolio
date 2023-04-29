@@ -113,8 +113,6 @@ This function is used to create an animation for an actor. An animation is a tab
 
 The `_spr_cols` parameter is a table of sprites and is passed into the function in the same format as the `create_spr_col()` function. However, the `_spr_cols` parameter is a table of sprite collections, where the each element in the table is a sprite collection. The example below shows the animation for the wall slide animation used in the platformer demo:
 
-````lua
-
 ```lua
 _spr_cols = {
     {{6,7},{22,23}},
@@ -123,7 +121,7 @@ _spr_cols = {
     {{12,13},{28,29}},
     {{14,15},{30,31}}
 }
-````
+```
 
 Each row is a sprite collection that represents a frame of the animation. The first sprite collection in the table is the first frame of the animation, the second sprite collection is the second frame of the animation, and so on. The `delay` parameter is the delay between frames of the animation. It is used to control the speed of the animation.
 
