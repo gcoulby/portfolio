@@ -1,0 +1,496 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0e0e0e;
+}
+
+h1,
+.h1 {
+  font-size: 6rem !important;
+}
+
+h2,
+.h2 {
+  font-size: 3.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 2rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+.modular {
+  padding-top: 3.375rem;
+  color: #686868;
+}
+
+@media (min-width: 992px) {
+  .modular {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #0e0e0e;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+.social-icons-dark .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+.list-blog-header img {
+  max-width: 100%;
+}
+
+.badge-primary {
+  background-color: #6c757d;
+}
+
+.badge-primary:hover {
+  background-color: #545b62;
+}
+
+.continue-btn {
+  color: white;
+  background: #343a40;
+  padding: 0.5rem;
+}
+
+.continue-btn:hover {
+  color: white;
+  text-decoration: none;
+  background: #545b62;
+  padding: 0.5rem;
+}
+
+.main-content {
+  padding-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pagination a,
+.pagination span {
+  padding: 1rem !important;
+}
+
+.pagination a span {
+  padding: 0rem !important;
+}
+
+.pagination li {
+  border: none !important;
+}
+
+.btn a,
+.btn a:hover {
+  text-decoration: none;
+}
+
+.row > * {
+  padding: 0;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+.navbar-nav-inner {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.navbar-nav::-webkit-scrollbar {
+  width: 12px;
+}
+
+.navbar-nav::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+.keyword {
+  margin-right: 5px;
+}
+
+.doi {
+  clear: both;
+}
+
+.skill {
+  background: linear-gradient(0deg, rgb(220, 220, 220) 0%, rgb(220, 220, 220) 90%, rgb(255, 255, 255) 90%);
+}
+
+.crop {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 2em;
+}
+
+.cropped-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.subheading {
+  font-family: "Muli", sans-serif;
+}
+
+@media (max-width: 400px) {
+  /*h1{*/
+  /*    font-size:3rem !important;*/
+  /*}*/
+  /*h2{*/
+  /*    font-size: 2rem !important;*/
+  /*}*/
+  html {
+    font-size: 10px;
+  }
+}
+.resume-section-item {
+  padding: 0 0 3rem 2rem;
+  border-left: 1px solid #0e0e0e;
+  position: relative;
+}
+
+.resume-section-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 11px;
+  background: #fff;
+  border: 2px solid #0e0e0e;
+}
+
+.bg-primary {
+  background-color: #0e0e0e !important;
+}
+
+.text-primary {
+  color: #686868 !important;
+}
+
+a {
+  color: #0e0e0e;
+}
+
+.subheading {
+  font-size: 1.2rem;
+}
+
+.subheading-dark {
+  color: #0e0e0e;
+}
+
+.typed {
+  color: #686868;
+}
+
+@media (min-width: 992px) {
+  #sideNav .navbar-brand .img-profile {
+    border: none;
+  }
+}
+.resume-section-item h5 {
+  font-size: 16px;
+  background: #d2d2d2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.form-field .col-sm-10 {
+  padding: 0;
+}
+
+li.skill {
+  display: inline;
+  padding: 10px 40px;
+  border: 2px solid #0e0e0e;
+  margin-right: 10px;
+  line-height: 2em;
+  position: relative;
+}
+
+.skill {
+  display: inline;
+  height: 60px;
+  border: 1px solid #0e0e0e;
+  line-height: 2em;
+  position: relative;
+  font-size: 2em;
+}
+
+.skill svg {
+  max-width: 40%;
+  max-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  transform: rotate(0deg) translate(-50%, -50%) !important;
+}
+
+.skill svg {
+  max-width: 80%;
+  /*max-height: 150px;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*height: 150px;*/
+}
+
+.social-icons .social-icon:hover {
+  background-color: #686868;
+}
+
+.social-icons-dark {
+  margin-top: 0.5em;
+}
+
+.social-icons-dark .social-icon:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
+
+a:hover {
+  color: #8e8e8e;
+  text-decoration: underline;
+}
+
+.app-start a:hover {
+  text-decoration: none;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  z-index: 1050; /* Sit on top */
+  overflow: hidden;
+}
+
+.modal-blur {
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+.modal-dialog {
+  max-width: 100% !important;
+  max-height: 90% !important;
+}
+
+.modal-body {
+  max-height: 500px !important;
+  overflow-y: auto;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}/*# sourceMappingURL=main.css.map */
