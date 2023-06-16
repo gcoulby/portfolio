@@ -5,7 +5,7 @@ export default function ExperienceItem({ item }: { item: IExperienceItem }) {
     <>
       <div className="d-flex flex-column flex-md-row justify-content-between resume-section-item">
         <div className="flex-grow-1">
-          <h3 className="mb-0">{item.role}</h3>
+          <h3 className="mb-0 text-dark">{item.role}</h3>
           <h5 className="">
             {item.startYear} - {item.endYear}
           </h5>

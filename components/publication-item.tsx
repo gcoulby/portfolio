@@ -8,7 +8,7 @@ export default function PublicationItem({ item }: { item: IPublicationItem }) {
     <>
       <div className="d-flex flex-column flex-md-row justify-content-between resume-section-item">
         <div className="flex-grow-1">
-          <h4 className="mb-0 ">{item.title}</h4>
+          <h4 className="mb-0 text-dark">{item.title}</h4>
           <h5 className="mr-2">{item.publicationType}</h5>
           <h5 className="mr-2">Published {item.publicationDate.toLocaleString("en-GB", dtOptions)}</h5>
           <h5>{item.authorType}</h5>

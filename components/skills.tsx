@@ -200,7 +200,7 @@ export default function Skills() {
     <>
       <section className="resume-section" id="skills">
         <div className="resume-section-content">
-          <h2 className="mb-5">Skills</h2>
+          <h2 className="mb-5 text-dark">Skills</h2>
           <div className="subheading mb-3">Programming Languages &amp; Tools</div>
           <p style={{ fontStyle: "italic" }}>*Scales denote confidence using language or tool</p>
 

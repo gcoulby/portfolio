@@ -141,7 +141,7 @@ export default function Publications() {
     <>
       <section className="resume-section" id="publications">
         <div className="resume-section-content">
-          <h2 className="mb-5">Publications</h2>
+          <h2 className="mb-5 text-dark">Publications</h2>
           {publicationItems
             .sort((a: IPublicationItem, b: IPublicationItem) => new Date(b.publicationDate).getTime() - new Date(a.publicationDate).getTime())
             .map((item: IPublicationItem, i: number) => (

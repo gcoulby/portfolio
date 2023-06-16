@@ -3,7 +3,6 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPosts from "@/helpers/getPosts";
 import ProjectsNav from "@/components/projectNav";
-import "@/styles/main.css";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -29,7 +28,7 @@ const PostPage = (props: any) => {
         <ProjectsNav keyWords={[]} showTags={false} />
         <section className="resume-section" id="o">
           <div className="resume-section-content">
-            <h3>{post.data.title}</h3>
+            <h3 className="text-dark">{post.data.title}</h3>
             <p>{post.data.description}</p>
             <article className="prose">
               <Markdown>{post.content}</Markdown>

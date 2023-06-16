@@ -9,8 +9,8 @@ export default function About() {
     <>
       <section className="resume-section" id="about">
         <div className="resume-section-content">
-          <h1 id="big-name" className="mb-0">
-            Dr <span className="text-primary">Graham</span> Coulby
+          <h1 id="big-name" className="mb-0 text-dark">
+            Dr <span className="text-secondary">Graham</span> Coulby
           </h1>
           <p className="subheading subheading-dark mb-2">
             I am a <ReactTyped className="typed" strings={typedStrings} typeSpeed={80} backSpeed={50} backDelay={1000} loop />
@@ -29,11 +29,12 @@ export default function About() {
                       href="https://www.northumbria.ac.uk/about-us/academic-departments/computer-and-information-sciences/research/"
                       target="_blank"
                       rel="noreferrer noopener"
+                      className="text-dark"
                     >
                       Computer and Information Sciences
                     </a>{" "}
                     at{" "}
-                    <a href="https://www.northumbria.ac.uk/" target="_blank" rel="noreferrer noopener">
+                    <a href="https://www.northumbria.ac.uk/" target="_blank" rel="noreferrer noopener" className="text-dark">
                       Northumbria University
                     </a>{" "}
                     in Newcastle upon Tyne, UK. My core research focus is personalised approaches for measuring indoor environmental quality, with a

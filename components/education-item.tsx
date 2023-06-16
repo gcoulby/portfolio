@@ -5,7 +5,7 @@ export default function EducationItem({ item }: { item: IEducationItem }) {
     <>
       <div className="d-flex flex-column flex-md-row justify-content-between resume-section-item">
         <div className="flex-grow-1">
-          <h3 className="mb-0">{item.institution}</h3>
+          <h3 className="mb-0 text-dark">{item.institution}</h3>
           <p className="mb-0"></p>
           <h5 className="">
             {item.startYear} - {item.endYear}

@@ -23,7 +23,7 @@ function ProjectItem({ post, setTag }: { post: IPost; setTag: React.Dispatch<Rea
             </div>
             <div>
               <Link href={link} className="" style={{ textDecoration: "none" }}>
-                <h3 className="mb-0">{post.title}</h3>
+                <h3 className="mb-0 text-dark">{post.title}</h3>
               </Link>
               <p>{post.description}</p>
               <div className="mb-2">

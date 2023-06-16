@@ -4,7 +4,7 @@ export default function Interests() {
     <>
       <section className="resume-section" id="interests">
         <div className="resume-section-content">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5 text-dark">Interests</h2>
           <p>
             I am passionate about design, and I love all aspects of development from embedded systems to front-end development and have a particular
             love for React/Next and use it on most of my projects. Aside to my professional skills I am also interested in graphic design, music

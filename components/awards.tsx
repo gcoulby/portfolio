@@ -17,7 +17,7 @@ export default function Awards() {
     <>
       <section className="resume-section" id="awards">
         <div className="resume-section-content">
-          <h2 className="mb-5">Awards</h2>
+          <h2 className="mb-5 text-dark">Awards</h2>
 
           {awards.map((award, i) => (
             <AwardItem key={`award-item-${i}`} item={award} />

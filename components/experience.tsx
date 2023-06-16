@@ -58,7 +58,7 @@ export default function Experience() {
     <>
       <section className="resume-section" id="experience">
         <div className="resume-section-content">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5 text-dark">Experience</h2>
           {experienceItems.map((item: IExperienceItem, i: number) => (
             <ExperienceItem key={`experience-item-${i}`} item={item} />
           ))}

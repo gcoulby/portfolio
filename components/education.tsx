@@ -29,7 +29,7 @@ export default function Education() {
     <>
       <section className="resume-section" id="education">
         <div className="resume-section-content">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5 text-dark">Education</h2>
           {educationItems.map((item, index) => (
             <EducationItem key={`education-item-key-${index}`} item={item} />
           ))}
