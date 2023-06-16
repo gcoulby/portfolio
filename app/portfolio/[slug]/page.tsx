@@ -3,7 +3,7 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPosts from "@/helpers/getPosts";
 import ProjectsNav from "@/components/projectNav";
-
+import "@/styles/main.css";
 const getPostContent = (slug: string) => {
   const folder = "posts/";
   const file = `${folder}${slug}.md`;

@@ -6,7 +6,7 @@ import Publications from "@/components/publications";
 import Skills from "@/components/skills";
 import Interests from "@/components/interests";
 import Awards from "@/components/awards";
-
+import "@/styles/main.css";
 export default function Home() {
   return (
     <>
