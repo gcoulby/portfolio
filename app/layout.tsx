@@ -15,7 +15,7 @@ export const metadata = {
     url: "http://grahamcoulby.co.uk/",
     title: "Graham Coulby",
     description: "Graham Coulby is a post-doc computer scientist who is interested in reserarch, IoT, embedded systems and full-stack development.",
-    image: "/img/apple-touch-icon.png",
+    image: "http://grahamcoulby.co.uk/img/apple-touch-icon.png",
     site_name: "Graham Coulby",
     imageWidth: 785,
     imageHeight: 411,
