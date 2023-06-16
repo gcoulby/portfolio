@@ -8,7 +8,7 @@ if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
   assetPrefix = `/${repo}/`;
-  basePath = `/${repo}/`;
+  basePath = `/${repo}`;
 }
 
 const nextConfig = {
@@ -19,7 +19,7 @@ const nextConfig = {
   //     path: 'the "domain" of your Imigix source',
   //   },
   output: "export",
-  //   trailingSlash: true,
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
