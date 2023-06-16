@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { FaHome, FaEye, FaTag, FaAngleLeft } from "react-icons/fa";
-// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function ProjectsNav({
   keyWords,
