@@ -9,7 +9,7 @@ This is a simple JavaScript application that I created for viewing the percentag
 
 ---
 
-![screenshot]/project-images/litt-up/feature.png)
+![screenshot](/project-images/litt-up/feature.png)
 
 Try the App:
 

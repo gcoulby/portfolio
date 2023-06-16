@@ -21,4 +21,4 @@ or View the Repository on GitHub:
 
 ---
 
-![screenshot]/project-images/apple-health-data-parser/feature.png)
+![screenshot](/project-images/apple-health-data-parser/feature.png)
