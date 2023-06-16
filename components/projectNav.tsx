@@ -1,11 +1,21 @@
-import React from "react";
+"use client";
 import logo from "@/images/logo.png";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import { FaHome, FaEye, FaTag, FaAngleLeft } from "react-icons/fa";
 // import AnchorLink from "react-anchor-link-smooth-scroll";
 
-function ProjectsNav({ keyWords, setTag, showTags }: { keyWords: string[]; setTag: any; showTags: boolean }) {
+function ProjectsNav({
+  keyWords,
+  setTag,
+  showTags,
+}: {
+  keyWords: string[];
+  setTag: React.Dispatch<React.SetStateAction<string>>;
+  showTags: boolean;
+}) {
+  const [collapse, setCollapse] = useState(true);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -23,10 +33,11 @@ function ProjectsNav({ keyWords, setTag, showTags }: { keyWords: string[]; setTa
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={() => setCollapse(!collapse)}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`navbar-collapse ${collapse && "collapse"}`} id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link href="/" className="nav-link js-scroll-trigger">
@@ -46,7 +57,13 @@ function ProjectsNav({ keyWords, setTag, showTags }: { keyWords: string[]; setTa
                 <ul className="navbar-nav navbar-nav-inner">
                   {keyWords.map((keyword, i) => (
                     <li key={`projects-nav-item-${i}`} className="nav-item">
-                      <span className="nav-link js-scroll-trigger" onClick={() => setTag(keyword)}>
+                      <span
+                        className="nav-link js-scroll-trigger"
+                        onClick={() => {
+                          setCollapse(true);
+                          setTag(keyword);
+                        }}
+                      >
                         <FaTag /> {keyword}
                       </span>
                     </li>

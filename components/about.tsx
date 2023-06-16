@@ -1,9 +1,10 @@
-// import ReactTyped from "react-typed";
-import HeadShot from "../images/gcou_headshot.jpg";
+"use client";
+import ReactTyped from "react-typed";
+import HeadShot from "@/images/gcou_headshot.jpg";
 import Image from "next/image";
 import SocialIcons from "./social-icons";
 export default function About() {
-  // const typedStrings = ["Researcher", "Lecturer", "Computer Scientist", "Graphic Designer", "Music Producer"];
+  const typedStrings = ["Researcher", "Lecturer", "Computer Scientist", "Graphic Designer", "Music Producer"];
 
   return (
     <>
@@ -12,9 +13,9 @@ export default function About() {
           <h1 id="big-name" className="mb-0">
             Dr <span className="text-primary">Graham</span> Coulby
           </h1>
-          {/* <p className="subheading subheading-dark mb-2">
-            I am a <ReactTyped className="typed" strings={typedStrings} typeSpeed={80} backSpeed={20} backDelay={500} loop />
-          </p> */}
+          <p className="subheading subheading-dark mb-2">
+            I am a <ReactTyped className="typed" strings={typedStrings} typeSpeed={80} backSpeed={50} backDelay={1000} loop />
+          </p>
 
           <div className="container-fluid">
             <div className="row">

@@ -1,8 +1,11 @@
-import logo from "../images/logo.png";
+"use client";
+import logo from "@/images/logo.png";
 import Image from "next/image";
 import NavItem from "./nav-item";
 import { INavItem } from "@/helpers/interfaces";
 import Link from "next/link";
+import { useState } from "react";
+
 import { FaUser, FaGraduationCap, FaSignal, FaBook, FaCode, FaPodcast, FaTrophy, FaHome } from "react-icons/fa";
 
 const navItems: INavItem[] = [
@@ -51,6 +54,7 @@ const navItems: INavItem[] = [
 ];
 
 export default function Nav() {
+  const [collapse, setCollapse] = useState(true);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -68,10 +72,11 @@ export default function Nav() {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={() => setCollapse(!collapse)}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`navbar-collapse ${collapse && "collapse"}`} id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link href="/" className="nav-link js-scroll-trigger">
@@ -79,7 +84,7 @@ export default function Nav() {
               </Link>
             </li>
             {navItems.map((item: INavItem, i: number) => (
-              <NavItem key={`nav-item-${i}`} navItem={item} />
+              <NavItem key={`nav-item-${i}`} navItem={item} setCollapse={setCollapse} />
             ))}
           </ul>
         </div>

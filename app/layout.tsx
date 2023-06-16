@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import { Inter } from "next/font/google";

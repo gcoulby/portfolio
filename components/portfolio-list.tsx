@@ -19,8 +19,10 @@ export default function PortfolioList({ posts, keywords }: { posts: IPost[]; key
         <section className="resume-section" id="o">
           <div className="resume-section-content">
             {tag === "all"
-              ? sortedPosts.map((post, i) => <ProjectItem key={`post-item-${i}`} post={post} />)
-              : sortedPosts.filter((post) => post.keywords.includes(tag)).map((post, i) => <ProjectItem key={`post-item-${i}`} post={post} />)}
+              ? sortedPosts.map((post, i) => <ProjectItem key={`post-item-${i}`} post={post} setTag={setTag} />)
+              : sortedPosts
+                  .filter((post) => post.keywords.includes(tag))
+                  .map((post, i) => <ProjectItem key={`post-item-${i}`} post={post} setTag={setTag} />)}
           </div>
         </section>
       </div>

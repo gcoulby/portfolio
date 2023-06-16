@@ -194,6 +194,10 @@ img {
   padding: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .App-logo {
   height: 20vmin;
   pointer-events: none;

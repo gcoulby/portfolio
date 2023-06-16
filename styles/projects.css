@@ -50,7 +50,7 @@ a {
 }
 
 .subheading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .subheading-dark {
@@ -133,4 +133,8 @@ li.skill {
 a:hover {
   color: #8e8e8e;
   text-decoration: underline;
+}
+
+.app-start a:hover {
+  text-decoration: none;
 }/*# sourceMappingURL=projects.css.map */

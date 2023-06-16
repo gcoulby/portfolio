@@ -2,9 +2,9 @@ import { IPost } from "@/helpers/interfaces";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleRight, FaTag } from "react-icons/fa";
 
-function ProjectItem({ post }: { post: IPost }) {
+function ProjectItem({ post, setTag }: { post: IPost; setTag: React.Dispatch<React.SetStateAction<string>> }) {
   const link = `/portfolio/${post.slug}`;
   return (
     <>
@@ -29,8 +29,8 @@ function ProjectItem({ post }: { post: IPost }) {
               <p>{post.description}</p>
               <div className="mb-2">
                 {post.keywords.map((keyword, i) => (
-                  <span className="badge bg-secondary me-1" key={`post-keywords-${i}`}>
-                    {keyword}
+                  <span className="badge bg-secondary me-1 cursor-pointer" key={`post-keywords-${i}`} onClick={() => setTag(keyword)}>
+                    <FaTag /> {keyword}
                   </span>
                 ))}
               </div>
