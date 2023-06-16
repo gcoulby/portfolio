@@ -9,7 +9,7 @@ The Apalis Blurred Backgrounds Collection, was a collection of graphic resources
 
 This product is essentially a collection of blurred backgrounds in 8K Resolution (W:7680px H:4320px). They are all categorised under six categories _(Earth, Wind, Fire, Ultraviolet, Day & Night)_ based on the colour palettes used in each background.
 
-![photo of app in use](/project-images/apalis-blurred-backgrounds/feature.png)
+![photo of app in use](/next-portfolio/project-images/apalis-blurred-backgrounds/feature.png)
 
 ---
 

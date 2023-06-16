@@ -9,9 +9,9 @@ This app is an extension of a previous game I made for my daughter when she was 
 
 This version of the game is an extension of that, but requires her to type the letters of each word into the app to advance to the next picture.
 
-![feature](/project-images/jennifers-picture-game/feature.png)
+![feature](/next-portfolio/project-images/jennifers-picture-game/feature.png)
 
-![screenshot](/project-images/jennifers-picture-game/1.png)
+![screenshot](/next-portfolio/project-images/jennifers-picture-game/1.png)
 
 ---
 

@@ -56,7 +56,7 @@ export default function Nav() {
   const [collapse, setCollapse] = useState(true);
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
         <Link href="/" className="navbar-brand js-scroll-trigger">
           <span className="d-block d-lg-none">Graham Coulby</span>
           <span className="d-none d-lg-block">

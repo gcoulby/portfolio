@@ -7,7 +7,7 @@ keywords: ["C++", "ESP32", "Emulation", "Retro"]
 
 This is an ESP32-based emulation of Ben Eater's SAP-1 project written in C++. This project includes a `.ino` file and is intended to be loaded onto the ESP32 via the Arduino IDE.
 
-![gif-of-the-device](/project-images/sap-1-emulator/1.gif)
+![gif-of-the-device](/next-portfolio/project-images/sap-1-emulator/1.gif)
 
 This project has a set of complementary applications to go with it for debugging. This project can be run on its own with out the debug tools and it is recommended to comment out the following line in the `SAP-1.ino`
 
@@ -17,7 +17,7 @@ However, the device also has the ability to send debug messages to a companion a
 
 This app has two components: a NodeJs COM port reader and a React app. The NodeJs app reads the debug messages from the ESP32 and sends them to the React app via a websocket. The React app then displays the debug messages as virtual components.
 
-![feature](/project-images/sap-1-emulator/feature.png)
+![feature](/next-portfolio/project-images/sap-1-emulator/feature.png)
 
 ### What is this project?
 

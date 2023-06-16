@@ -13,11 +13,11 @@ The original application was made in .NET Framework back in 2015 and its primary
 
 Fast-forward 6 years and Visual Studio Code has dominated the market of text editors and is highly extensible. Since it was built on the open source Monaco editor, I wanted to revamp the old project and make it a web based application. Using Monaco allowed me to have much nicer syntax highlighting, while retaining the ability to hover peek hash tags. It also provided me with the ability to provide rich text popups, which link to Schema definitions:
 
-![screenshot](/project-images/ifcxplorer/feature.png)
+![screenshot](/next-portfolio/project-images/ifcxplorer/feature.png)
 
 It also enables peek definitions, which show a much nicer way to see the hash tags:
 
-![screenshot](/project-images/ifcxplorer/1.png)
+![screenshot](/next-portfolio/project-images/ifcxplorer/1.png)
 
 ---
 
