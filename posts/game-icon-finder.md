@@ -9,7 +9,7 @@ I made this app based on code from the Ironsworn Companion. This component was u
 
 I created this app to implement a searchable interface for getting icons from GameIcon.net using Kyle Kemp's web font implementation. This tool provides a quick way to search and copy icons in various formats.
 
-![screenshot](/next-portfolio/project-images/game-icon-finder/feature.png)
+![screenshot](/portfolio/project-images/game-icon-finder/feature.png)
 
 ---
 

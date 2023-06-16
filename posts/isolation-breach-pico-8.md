@@ -9,7 +9,7 @@ This is another game for the PICO-8. It's a simple 'hacking' game where you have
 
 This image contains the entire game, including the map, sprites, music and sound effects and can be run on the Pico-8:
 
-![feature](/next-portfolio/project-images/isolation-breach-pico-8/feature.png)
+![feature](/portfolio/project-images/isolation-breach-pico-8/feature.png)
 
 ---
 

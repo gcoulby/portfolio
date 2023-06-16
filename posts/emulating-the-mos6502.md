@@ -11,7 +11,7 @@ This is the product of this CPD exercise.
 
 This project is not original in idea, but its not copied code either. The aim here is purely a learning exercise.
 
-![screenshot](/next-portfolio/project-images/emulating-the-mos6502/feature.png)
+![screenshot](/portfolio/project-images/emulating-the-mos6502/feature.png)
 
 ---
 

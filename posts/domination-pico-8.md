@@ -11,7 +11,7 @@ I was able to get the game running on the Pico-8 with relative ease, as I have a
 
 It still baffles me that the entire game is encoded into png file using steganography. This image contains the entire game, including the map, sprites, music and sound effects and can be run on the Pico-8.
 
-![feature](/next-portfolio/project-images/domination-pico-8/feature.png)
+![feature](/portfolio/project-images/domination-pico-8/feature.png)
 
 ---
 

@@ -7,7 +7,7 @@ keywords: ["React", "Web Development", "JavaScript", "Tools"]
 
 I created this project so I could quickly convert the width of a Eurorack module from HP to mm, and vice versa. The primary purpose of the app is to show how many HP slots are required based on the width of circuit boards. For this reason, HP units are always rounded up to ensure the front panel is wider than the build.
 
-![feature](/next-portfolio/project-images/eurorack-unit-hp-converter/feature.png)
+![feature](/portfolio/project-images/eurorack-unit-hp-converter/feature.png)
 
 ---
 

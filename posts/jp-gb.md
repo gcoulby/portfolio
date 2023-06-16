@@ -29,22 +29,22 @@ Play Online via The Homebrew Hub:
 
 Game on Original Gameboy Color:
 
-![game on console](/next-portfolio/project-images/jp-gb/1.jpg)
+![game on console](/portfolio/project-images/jp-gb/1.jpg)
 
 EZ Flash Jr Cartridge:
 
-![EZ Flash JR](/next-portfolio/project-images/jp-gb/2.jpg)
+![EZ Flash JR](/portfolio/project-images/jp-gb/2.jpg)
 
 Sprite/Map Design:
 
-![sprite map designer](/next-portfolio/project-images/jp-gb/7.png)
+![sprite map designer](/portfolio/project-images/jp-gb/7.png)
 
 Screenshots:
 
-![screen shot](/next-portfolio/project-images/jp-gb/feature.png)
+![screen shot](/portfolio/project-images/jp-gb/feature.png)
 
-![screen shot](/next-portfolio/project-images/jp-gb/4.png)
+![screen shot](/portfolio/project-images/jp-gb/4.png)
 
-![screen shot](/next-portfolio/project-images/jp-gb/5.png)
+![screen shot](/portfolio/project-images/jp-gb/5.png)
 
-![screen shot](/next-portfolio/project-images/jp-gb/3.png)
+![screen shot](/portfolio/project-images/jp-gb/3.png)

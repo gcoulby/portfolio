@@ -13,6 +13,6 @@ Visit the Website:
 
 <a className="btn btn-dark" href="https://tbi-research.uk/" target="_blank" rel="noopener noreferrer"><i className="fa fa-globe"></i> Visit the Site</a>
 
-![screenshot](/next-portfolio/project-images/tbi-research-network-website/feature.png)
+![screenshot](/portfolio/project-images/tbi-research-network-website/feature.png)
 
-![screenshot](/next-portfolio/project-images/tbi-research-network-website/1.png)
+![screenshot](/portfolio/project-images/tbi-research-network-website/1.png)
