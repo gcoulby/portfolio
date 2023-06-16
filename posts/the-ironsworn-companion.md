@@ -13,11 +13,11 @@ The look and feel of the book was retained throughout and I feel really meets my
 
 ##### Comparison of Print vs. Digital Character Sheet
 
-![ThemeComparison1](/portfolio/project-images/the-ironsworn-companion/1.png)
+![ThemeComparison1]/project-images/the-ironsworn-companion/1.png)
 
 ##### Comparison of Print vs. Digital Assets
 
-![ThemeComparison2](/portfolio/project-images/the-ironsworn-companion/2.png)
+![ThemeComparison2]/project-images/the-ironsworn-companion/2.png)
 
 ---
 
@@ -25,27 +25,27 @@ I also added some unique features to leverage the power of digital technologies.
 
 - I developed a custom game icon picker for cards:
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/3.png)
+![screenshot]/project-images/the-ironsworn-companion/3.png)
 
 - I created print-only CSS profiles to enable customs assets to be printed for pen-and-paper play.
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/4.png)
+![screenshot]/project-images/the-ironsworn-companion/4.png)
 
 - I added a custom map to enable more visual location tracking
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/5.png)
+![screenshot]/project-images/the-ironsworn-companion/5.png)
 
 - I added a rich markdown journal for writing the story of the campaign
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/6.png)
+![screenshot]/project-images/the-ironsworn-companion/6.png)
 
 - I added mobile support with custom CSS profiles
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/7.png)
+![screenshot]/project-images/the-ironsworn-companion/7.png)
 
 - I also added Google Drive support. This was added because the app uses browser localStorage. However, Apple are somehow allowed to limit third party browsers _(more than they already do by making the have to use Safari as a base!!!)_, by disabling downloading of dynamically generated Binary Large Object files.
 
-![screenshot](/portfolio/project-images/the-ironsworn-companion/8.png)
+![screenshot]/project-images/the-ironsworn-companion/8.png)
 
 ---
 

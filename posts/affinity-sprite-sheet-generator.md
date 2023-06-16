@@ -9,7 +9,7 @@ I love the Asset panel of Affinity, but it can be very frustrating to open each 
 
 This app also allows SVGs to be recoloured, which is handy as Affinity shows the icons in the panel with their original colour. These may look fine in Light mode, but are then hard to see in dark mode. This allows you to bulk edit the colours of SVGs.
 
-![screenshot](/portfolio/project-images/affinity-sprite-sheet-generator/feature.png)
+![screenshot]/project-images/affinity-sprite-sheet-generator/feature.png)
 
 ---
 

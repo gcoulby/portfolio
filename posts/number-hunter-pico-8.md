@@ -9,7 +9,7 @@ This is my second game for the PICO-8. It's a simple 'hacking' game where you ha
 
 This image contains the entire game, including the map, sprites, music and sound effects and can be run on the Pico-8:
 
-![feature](/portfolio/project-images/number-hunter-pico-8/feature.png)
+![feature]/project-images/number-hunter-pico-8/feature.png)
 
 ---
 

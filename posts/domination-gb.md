@@ -23,12 +23,12 @@ View the Repository on GitHub:
 
 ---
 
-![screenshot](/portfolio/project-images/domination-gb/feature.png)
+![screenshot]/project-images/domination-gb/feature.png)
 
-![screenshot](/portfolio/project-images/domination-gb/2.png)
+![screenshot]/project-images/domination-gb/2.png)
 
-![screenshot](/portfolio/project-images/domination-gb/3.png)
+![screenshot]/project-images/domination-gb/3.png)
 
-![screenshot](/portfolio/project-images/domination-gb/4.png)
+![screenshot]/project-images/domination-gb/4.png)
 
-![game on console](/portfolio/project-images/domination-gb/1.jpg "game on console")
+![game on console]/project-images/domination-gb/1.jpg "game on console")

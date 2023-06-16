@@ -15,7 +15,7 @@ export const metadata = {
     url: "http://grahamcoulby.co.uk/",
     title: "Graham Coulby",
     description: "Graham Coulby is a post-doc computer scientist who is interested in reserarch, IoT, embedded systems and full-stack development.",
-    image: "/portfolio/img/apple-touch-icon.png",
+    image: "/img/apple-touch-icon.png",
     site_name: "Graham Coulby",
     imageWidth: 785,
     imageHeight: 411,
@@ -25,7 +25,7 @@ export const metadata = {
     initialScale: 0.85,
   },
 
-  manifest: "/portfolio/img/site.webmanifest",
+  manifest: "/img/site.webmanifest",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

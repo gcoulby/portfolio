@@ -13,7 +13,7 @@ Pico-8 is a fantasy console for making, sharing and playing tiny games and other
 
 ### Cart Info
 
-![feature](/portfolio/project-images/reusable-actor-pico-8/feature.png)
+![feature]/project-images/reusable-actor-pico-8/feature.png)
 
 |            | Used | Available | Percentage |
 | :--------- | :--- | :-------- | :--------- |
