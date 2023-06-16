@@ -1,13 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  trailingSlash: true,
-  output: "export",
-};
-
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 let assetPrefix = "";
-let basePath = "/";
+let basePath = "";
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
@@ -16,13 +11,15 @@ if (isGithubActions) {
   basePath = `/${repo}`;
 }
 
-module.exports = {
+const nextConfig = {
   assetPrefix: assetPrefix,
   basePath: basePath,
-  images: {
-    loader: "imgix",
-    path: 'the "domain" of your Imigix source',
-  },
+  //   images: {
+  //     loader: "imgix",
+  //     path: 'the "domain" of your Imigix source',
+  //   },
+  output: "export",
+  //   trailingSlash: true,
 };
 
 module.exports = nextConfig;
