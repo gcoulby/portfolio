@@ -1,6 +1,5 @@
 "use client";
 import logo from "@/images/logo.png";
-import Image from "next/image";
 import NavItem from "./nav-item";
 import { INavItem } from "@/helpers/interfaces";
 import Link from "next/link";
@@ -61,7 +60,7 @@ export default function Nav() {
         <Link href="/" className="navbar-brand js-scroll-trigger">
           <span className="d-block d-lg-none">Graham Coulby</span>
           <span className="d-none d-lg-block">
-            <Image className="img-fluid img-profile mx-auto mb-2" src={logo} alt="" />
+            <img src={logo.src} className="img-fluid img-profile mx-auto mb-2" alt="" />
           </span>
         </Link>
         <button

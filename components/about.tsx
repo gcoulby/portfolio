@@ -1,7 +1,6 @@
 "use client";
 import ReactTyped from "react-typed";
 import HeadShot from "@/images/gcou_headshot.jpg";
-import Image from "next/image";
 import SocialIcons from "./social-icons";
 export default function About() {
   const typedStrings = ["Researcher", "Lecturer", "Computer Scientist", "Graphic Designer", "Music Producer"];
@@ -20,7 +19,7 @@ export default function About() {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-auto">
-                <Image src={HeadShot} className="img-fluid img-profile mx-auto mb-2 me-4" width={200} alt="Graham Coulby" />
+                <img src={HeadShot.src} className="img-fluid img-profile mx-auto mb-2 me-4" width={200} alt="Graham Coulby" />
               </div>
               <div className="col-sm-12 col-md-8">
                 <div className="lead mb-5">

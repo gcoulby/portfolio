@@ -25,7 +25,7 @@ const PostPage = (props: any) => {
   return (
     <div>
       <div className="modular">
-        <ProjectsNav keyWords={[]} setTag={() => {}} showTags={false} />
+        <ProjectsNav keyWords={[]} showTags={false} />
         <section className="resume-section" id="o">
           <div className="resume-section-content">
             <h3>{post.data.title}</h3>

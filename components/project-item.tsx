@@ -1,5 +1,4 @@
 import { IPost } from "@/helpers/interfaces";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaAngleRight, FaTag } from "react-icons/fa";
@@ -13,10 +12,10 @@ function ProjectItem({ post, setTag }: { post: IPost; setTag: React.Dispatch<Rea
           <div className="d-flex">
             <div className="crop">
               <Link href={link} className="">
-                <Image
+                <img
+                  src={`/project-images/${post.slug}/feature.png`}
                   className="cropped-image"
                   alt="feature for the project"
-                  src={`/project-images/${post.slug}/feature.png`}
                   width={512}
                   height={512}
                 />

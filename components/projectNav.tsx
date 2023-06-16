@@ -1,31 +1,23 @@
 "use client";
 import logo from "@/images/logo.png";
 import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
 import { FaHome, FaEye, FaTag, FaAngleLeft } from "react-icons/fa";
+import { useState } from "react";
 
-function ProjectsNav({
-  keyWords,
-  setTag,
-  showTags,
-}: {
-  keyWords: string[];
-  setTag: React.Dispatch<React.SetStateAction<string>>;
-  showTags: boolean;
-}) {
+function ProjectsNav({ keyWords, showTags }: { keyWords: string[]; showTags: boolean }) {
   const [collapse, setCollapse] = useState(true);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
         <Link className="navbar-brand js-scroll-trigger" href="/">
           <span className="d-block d-lg-none">Graham Coulby</span>
           <span className="d-none d-lg-block">
-            <Image className="img-fluid img-profile mx-auto mb-2" src={logo} alt="" />
+            <img src={logo.src} className="img-fluid img-profile mx-auto mb-2" alt="" />
           </span>
         </Link>
         <button
-          className="navbar-toggler collapsed"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -46,7 +38,7 @@ function ProjectsNav({
             {showTags ? (
               <>
                 <li className="nav-item">
-                  <span className="nav-link js-scroll-trigger" onClick={() => setTag("all")}>
+                  <span className="nav-link js-scroll-trigger">
                     <FaEye /> Show All
                   </span>
                 </li>
@@ -60,7 +52,6 @@ function ProjectsNav({
                         className="nav-link js-scroll-trigger"
                         onClick={() => {
                           setCollapse(true);
-                          setTag(keyword);
                         }}
                       >
                         <FaTag /> {keyword}
