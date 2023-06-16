@@ -13,7 +13,7 @@ function ProjectItem({ post, setTag }: { post: IPost; setTag: React.Dispatch<Rea
             <div className="crop">
               <Link href={link} className="">
                 <img
-                  src={`/project-images/${post.slug}/feature.png`}
+                  src={`/next-portfolio/project-images/${post.slug}/feature.png`}
                   className="cropped-image"
                   alt="feature for the project"
                   width={512}
