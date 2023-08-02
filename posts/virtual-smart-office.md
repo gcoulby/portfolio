@@ -1,5 +1,5 @@
 ---
-title: "Viruta Smart Office"
+title: "Virtual Smart Office"
 slug: "virtual-smart-office"
 description: "An AI enabled, demonstration of principal Internet of Things (IoT) technologies (e.g., MQTT brokers, timeseries databases, real-time data capture) built on a real-time, cloud-based, microservice architecture."
 keywords: ["Web Development", "React", "IoT", "JavaScript", "MQTT", "AI", "Cloud", "Microservices"]
