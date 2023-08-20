@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import SkillItem from "./skill-item";
 
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaVuejs } from "react-icons/fa";
 import {
   SiGit,
   SiJavascript,
@@ -186,6 +186,11 @@ const _skills: ISkillItem[] = [
     title: "Next.js",
     level: 80,
     icon: <SiNextdotjs />,
+  },
+  {
+    title: "Vue.js",
+    level: 80,
+    icon: <FaVuejs />,
   },
 ];
 
