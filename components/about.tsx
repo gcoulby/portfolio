@@ -3,7 +3,7 @@ import ReactTyped from "react-typed";
 import HeadShot from "@/images/gcou_headshot.jpg";
 import SocialIcons from "./social-icons";
 export default function About() {
-  const typedStrings = ["Researcher", "Lecturer", "Computer Scientist", "Graphic Designer", "Music Producer"];
+  const typedStrings = ["Senior Full Stack Engineer", "Researcher", "Graphic Designer", "Music Producer"];
 
   return (
     <>
@@ -24,23 +24,12 @@ export default function About() {
               <div className="col-sm-12 col-md-8">
                 <div className="lead mb-5">
                   <p>
-                    I am a researcher and lecturer in{" "}
-                    <a
-                      href="https://www.northumbria.ac.uk/about-us/academic-departments/computer-and-information-sciences/research/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="text-dark"
-                    >
-                      Computer and Information Sciences
+                    I am a Senior Full Stack Engineer at {" "}
+                    <a href="https://ceto.ai/" target="_blank" rel="noreferrer noopener" className="text-dark">
+                      CetoAI
                     </a>{" "}
-                    at{" "}
-                    <a href="https://www.northumbria.ac.uk/" target="_blank" rel="noreferrer noopener" className="text-dark">
-                      Northumbria University
-                    </a>{" "}
-                    in Newcastle upon Tyne, UK. My core research focus is personalised approaches for measuring indoor environmental quality, with a
-                    focus on health and wellbeing. My work involves using passive environmental sensors and wearable devices. I am also interested in
-                    the use of building data visualisation and I am developing a digital research platform to support the development of a smart
-                    campus.
+                    in Newcastle upon Tyne, UK. I develop hardware, software and cloud development operations for bringing AI innovations to maritime transportation. I am currently developing solutions to increase maritime fleet availability, cut carbon emissions and reduce operational risk across shipping fleets around the globe.
+                  
                   </p>
                 </div>
               </div>

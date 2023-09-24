@@ -4,10 +4,18 @@ import { IExperienceItem } from "@/helpers/interfaces";
 
 const experienceItems: IExperienceItem[] = [
   {
+    role: "Senior Full Stack Engineer",
+    company: "CetoAI",
+    startYear: "2023",
+    endYear: "PRESENT",
+    description:
+      "In this role I develop hardware, software and cloud development operations for bringing AI innovations to maritime transportation. I am currently developing solutions to increase maritime fleet availability, cut carbon emissions and reduce operational risk across shipping fleets around the globe.",
+  },
+  {
     role: "Senior Technician (Research Software Engineer)",
     company: "University of Northumbria Newcastle",
     startYear: "2021",
-    endYear: "PRESENT",
+    endYear: "2023",
     description:
       "In this role I provide technical support to the Faculty of Engineering and Environment, where I provide technical support with a computer science focus. I am currently exploring research-enabling solutions for digitising our Internet of Things (IoT) network, while supporting researchers within faculty. I have developed a large-scale data transport system for exposing building sensor data from secure Building Automation Control Networks (BACNet) to wide-area-networks across a bespoke, secure, and uni-directional infrastructure built on emergent research and security best practices",
   },
@@ -15,7 +23,7 @@ const experienceItems: IExperienceItem[] = [
     role: "Lecturer / Lab Demonstrator",
     company: "University of Northumbria Newcastle",
     startYear: "2020",
-    endYear: "PRESENT",
+    endYear: "2023",
     description:
       "Alongside my PhD studies and work as a senior technician, I work supporting teaching at Northumbria University from levels 3 - 7. I teach in a range of subjects and roles within Computer and Information Sciences including demonstrating on Applied Computing and Project Management as well as preparing and delivering course materials on IoT Technologies. In this role, I have also supervised students and undertaken ethical reviews.",
   },
