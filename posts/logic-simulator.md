@@ -2,7 +2,7 @@
 title: "Logic Simulator (WIP)"
 slug: "logic-simulator"
 description: "A Building Automation Control Network monitoring system architecture"
-keywords: ["Emulation", "Vue", "Javascript", "Tools"]
+keywords: ["Emulation", "Vue", "JavaScript", "Tools"]
 ---
 
 
