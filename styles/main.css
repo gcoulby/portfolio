@@ -19,7 +19,8 @@ h6,
 
 h1,
 .h1 {
-  font-size: 6rem !important;
+  margin-top: 4rem;
+  font-size: 4rem !important;
 }
 
 h2,

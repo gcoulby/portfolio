@@ -407,7 +407,7 @@ I used Oracle Cloud Infrastructure to host all of the services in this stack. I 
 
 I intend to develop a second FastAPI service, which will be used to provide an API for the InfluxDB database. This will provide a persistent API for capturing simulated sensor data for testing and development purposes. This will be developed in a separate repository.
 
----
+<!-- ---
 
 Try the Client App:
 
@@ -423,4 +423,4 @@ View the Dashboard:
 
 Read the API Docs:
 
-<a className="btn btn-dark" href="https://ieq-predict.grahamcoulby.co.uk/docs"  target="_blank" rel="noopener noreferrer"><i className="fa fa-globe"></i> Read the API Docs</a>
+<a className="btn btn-dark" href="https://ieq-predict.grahamcoulby.co.uk/docs"  target="_blank" rel="noopener noreferrer"><i className="fa fa-globe"></i> Read the API Docs</a> -->

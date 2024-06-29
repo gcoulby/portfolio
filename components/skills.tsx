@@ -1,12 +1,13 @@
-"use client";
-import React, { useState, useEffect } from "react";
-import SkillItem from "./skill-item";
+'use client'
+import React, { useState, useEffect } from 'react'
+import SkillItem from './skill-item'
 
-import { FaJava, FaVuejs } from "react-icons/fa";
+import { FaJava, FaVuejs } from 'react-icons/fa'
 import {
   SiGit,
   SiJavascript,
   SiReact,
+  SiVuedotjs,
   SiNodedotjs,
   SiPython,
   SiCsharp,
@@ -32,174 +33,174 @@ import {
   SiTypescript,
   SiAngularjs,
   SiBootstrap,
-} from "react-icons/si";
-import { CgCPlusPlus } from "react-icons/cg";
-import { ISkillItem } from "@/helpers/interfaces";
+} from 'react-icons/si'
+import { CgCPlusPlus } from 'react-icons/cg'
+import { ISkillItem } from '@/helpers/interfaces'
 
 const _skills: ISkillItem[] = [
   {
-    title: "Javascript",
+    title: 'Javascript',
     level: 90,
     icon: <SiJavascript />,
   },
   {
-    title: "React",
+    title: 'React',
     level: 90,
     icon: <SiReact />,
   },
   {
-    title: "Node.js",
+    title: 'Node.js',
     level: 80,
     icon: <SiNodedotjs />,
   },
   {
-    title: "C#",
+    title: 'C#',
     level: 90,
     icon: <SiCsharp />,
   },
   {
-    title: "Python",
+    title: 'Python',
     level: 80,
     icon: <SiPython />,
   },
   {
-    title: "C",
-    level: 60,
+    title: 'C',
+    level: 80,
     icon: <SiC />,
   },
   {
-    title: "git",
+    title: 'git',
     level: 80,
     icon: <SiGit />,
   },
   {
-    title: "C++",
-    level: 60,
+    title: 'C++',
+    level: 70,
     icon: <CgCPlusPlus />,
   },
   {
-    title: "Arduino",
+    title: 'Arduino',
     level: 60,
     icon: <SiArduino />,
   },
   {
-    title: "Raspberry Pi",
+    title: 'Raspberry Pi',
     level: 60,
     icon: <SiRaspberrypi />,
   },
   {
-    title: "Microsoft Azure",
+    title: 'Microsoft Azure',
     level: 50,
     icon: <SiMicrosoftazure />,
   },
   {
-    title: "Google Cloud Platform",
+    title: 'Google Cloud Platform',
     level: 40,
     icon: <SiGooglecloud />,
   },
   {
-    title: "TensorFlow",
+    title: 'TensorFlow',
     level: 45,
     icon: <SiTensorflow />,
   },
   {
-    title: "R",
+    title: 'R',
     level: 40,
     icon: <SiR />,
   },
   {
-    title: "Java",
+    title: 'Java',
     level: 70,
     icon: <FaJava />,
   },
   {
-    title: "Unity",
+    title: 'Unity',
     level: 50,
     icon: <SiUnity />,
   },
   {
-    title: "Photoshop",
+    title: 'Photoshop',
     level: 70,
     icon: <SiAdobephotoshop />,
   },
   {
-    title: "Illustrator",
+    title: 'Illustrator',
     level: 90,
     icon: <SiAdobeillustrator />,
   },
   {
-    title: "Lua",
+    title: 'Lua',
     level: 80,
     icon: <SiLua />,
   },
   {
-    title: "PHP",
+    title: 'PHP',
     level: 80,
     icon: <SiPhp />,
   },
   {
-    title: "HTML5",
+    title: 'HTML5',
     level: 99,
     icon: <SiHtml5 />,
   },
   {
-    title: "css3",
+    title: 'css3',
     level: 99,
     icon: <SiCss3 />,
   },
   {
-    title: "Angular",
+    title: 'Angular',
     level: 40,
     icon: <SiAngularjs />,
   },
   {
-    title: "TypeScript",
+    title: 'TypeScript',
     level: 80,
     icon: <SiTypescript />,
   },
   {
-    title: "Bash",
+    title: 'Bash',
     level: 70,
     icon: <SiGnubash />,
   },
   {
-    title: "Affinity Designer",
+    title: 'Affinity Designer',
     level: 90,
     icon: <SiAffinitydesigner />,
   },
   {
-    title: "Bootstrap",
+    title: 'Bootstrap',
     level: 90,
     icon: <SiBootstrap />,
   },
   {
-    title: "Docker",
+    title: 'Docker',
     level: 70,
     icon: <SiDocker />,
   },
   {
-    title: "Affinity Photo",
+    title: 'Affinity Photo',
     level: 70,
     icon: <SiAffinityphoto />,
   },
   {
-    title: "Next.js",
+    title: 'Next.js',
     level: 80,
     icon: <SiNextdotjs />,
   },
   {
-    title: "Vue.js",
-    level: 80,
+    title: 'Vue.js',
+    level: 95,
     icon: <FaVuejs />,
   },
-];
+]
 
 export default function Skills() {
-  const [skills, setSkills] = useState<ISkillItem[]>([]);
+  const [skills, setSkills] = useState<ISkillItem[]>([])
 
   useEffect(() => {
-    if (skills.length === 0) setSkills([..._skills].sort(() => Math.random() - 0.5));
-  }, [skills]);
+    if (skills.length === 0) setSkills([..._skills].sort(() => Math.random() - 0.5))
+  }, [skills])
 
   return (
     <>
@@ -207,7 +208,7 @@ export default function Skills() {
         <div className="resume-section-content">
           <h2 className="mb-5 text-dark">Skills</h2>
           <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-          <p style={{ fontStyle: "italic" }}>*Scales denote confidence using language or tool</p>
+          <p style={{ fontStyle: 'italic' }}>*Scales denote confidence using language or tool</p>
 
           <div className="container">
             <div className="row row-cols-3">
@@ -219,5 +220,5 @@ export default function Skills() {
         </div>
       </section>
     </>
-  );
+  )
 }
