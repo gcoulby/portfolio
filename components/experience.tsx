@@ -28,6 +28,14 @@ const experienceItems: IExperienceItem[] = [
       'Alongside my PhD studies and work as a senior technician, I work supporting teaching at Northumbria University from levels 3 - 7. I teach in a range of subjects and roles within Computer and Information Sciences including demonstrating on Applied Computing and Project Management as well as preparing and delivering course materials on IoT Technologies. In this role, I have also supervised students and undertaken ethical reviews.',
   },
   {
+    role: 'Co-Owner / Technical Lead',
+    company: 'Online Gaming Communities',
+    startYear: '2020',
+    endYear: '2022',
+    description:
+      'Ran multiplayer game servers for Arma 3 and GTA V; managed a team of 8 developers; developed visual game assets and environments; maintained MySQL databases; managed dedicated servers for VOIP communications and game-hosting; managed VPS for docker-based backend microservices, developed Arma assets using Bohemia SQF language and C#; developed GTA assets using Lua and JavaScript; used CI/CD pipelines for automated deployments of game updates to ensure seamless experience for our player base and community.',
+  },
+  {
     role: 'Computer Scientist / Consultant',
     company: 'BIM Academy',
     startYear: '2016',
