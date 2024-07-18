@@ -12,7 +12,7 @@ I am really pleased with how this mod has come out. Due to its complexity, I bui
 This is still a work in progress, but I am really happy with how this is turning out. 
 
 
-![image](/project-images/fivem-slots/1.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8AYKwtRGGw?si=gnaO2uge1FLlX5rO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![logo](/project-images/fivem-slots/feature.png)
 
