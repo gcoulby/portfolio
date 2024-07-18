@@ -12,7 +12,7 @@ This Mod requires MenuV by ThymonA <a className="" href="https://github.com/Thym
 When the mod is loaded you can press NUM8 to activate or change the default activation key in the Config.lua
 
 
-![logo](/project-images/fivem-timecycle-viewer/feature.jpg)
+![logo](/project-images/fivem-timecycle-viewer/feature.png)
 
 ![image](/project-images/fivem-timecycle-viewer/1.jpg)
 

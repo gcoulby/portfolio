@@ -22,6 +22,6 @@ Stress levels increase while in the net, when stress levels reach 100 there will
 
 ![image](/project-images/fivem-netrunner/3.png)
 
-![image](/project-images/fivem-netrunner/4.jpg)
+![image](/project-images/fivem-netrunner/4.png)
 
-![image](/project-images/fivem-netrunner/5.jpg)
+![image](/project-images/fivem-netrunner/5.png)

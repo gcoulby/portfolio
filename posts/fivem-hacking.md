@@ -15,7 +15,7 @@ Using the `exploit` command, you could create an encryption key that acts as a t
 
 ![image](/project-images/fivem-hacking/1.png)
 
-![image](/project-images/fivem-hacking/2.jpg)
+![image](/project-images/fivem-hacking/2.png)
 
 ![image](/project-images/fivem-hacking/3.png)
 

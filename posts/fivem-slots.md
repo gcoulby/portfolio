@@ -18,4 +18,4 @@ This is still a work in progress, but I am really happy with how this is turning
 
 ![image](/project-images/fivem-slots/2.jpg)
 
-![image](/project-images/fivem-slots/3.png)
+![image](/project-images/fivem-slots/3.jpg)
