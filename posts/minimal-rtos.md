@@ -9,7 +9,7 @@ keywords: ["C++", "Pico", "Hardware"]
 # Minimal RTOS for Raspberry Pi Pico
 
 
-For this project I was reading into real-time operating systems (RTOS) and wanted to build out the minimal requirements of an RTOS. The primary purpose of this RTOS is to handle multiple scheduled tasks each with specific interval requirements and run them concurrently *or as close to*. To keep the minimal RTOS as light weight as possible, it uses a round-robin schedular to distribute resources. This means that each task gets an equal share of the CPU. 
+For this project I was reading into real-time operating systems (RTOS) and wanted to build out the minimal requirements of an RTOS. The primary purpose of this RTOS is to handle multiple scheduled tasks each with specific interval requirements and run them concurrently *or as close to*. The RTOS features flexible scheduling to allow you to choose between `ROUND_ROBIN` or `PRIORITY_BASED`. The `ROUND_ROBIN` scheduler ensures that each task gets an equal share of the CPU, whereas the `PRIORITY_BASED` scheduler will execute higher priority tasks first, but will fall back to a round-robin approach for equal-priority tasks. 
 
 
 ## Hardware Setup
