@@ -1,3 +1,10 @@
+---
+title: "Minimal RTOS"
+slug: "minimal-rtos"
+description: "A minimal RTOS using a round-robin scheduler for Raspberry Pi Pico"
+keywords: ["C++", "Pico", "Hardware"]
+---
+
 
 # Minimal RTOS for Raspberry Pi Pico
 
