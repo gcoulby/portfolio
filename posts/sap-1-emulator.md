@@ -2,7 +2,7 @@
 title: "SAP-1 Emulator"
 slug: "sap-1-emulator"
 description: "This is an emulator for Ben Eater's SAP-1 computer written in C/C++ for the ESP32"
-keywords: ["C++", "ESP32", "Emulation", "Retro", "Systems/Hardware"]
+keywords: ["C++", "ESP32", "Emulation", "Retro", "Systems/Hardware", "Microcontrollers"]
 ---
 
 This is an ESP32-based emulation of Ben Eater's SAP-1 project written in C++. This project includes a `.ino` file and is intended to be loaded onto the ESP32 via the Arduino IDE.

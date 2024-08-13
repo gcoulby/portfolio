@@ -2,7 +2,7 @@
 title: "J1939 CAN BUS Testing"
 slug: "can-bus-testing"
 description: "A minimal example to showcase CANBus communication"
-keywords: ["C++", "Arduino", "Hardware", "J1939", "VueJs", "TypeScript"]
+keywords: ["C++", "Arduino", "Microcontrollers", "Systems/Hardware", "J1939", "VueJs", "TypeScript"]
 ---
 
 
