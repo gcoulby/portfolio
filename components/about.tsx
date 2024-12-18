@@ -3,7 +3,7 @@ import ReactTyped from 'react-typed'
 import HeadShot from '@/images/gcou_headshot.jpg'
 import SocialIcons from './social-icons'
 export default function About() {
-  const typedStrings = ['Senior Full Stack Engineer', 'Researcher', 'Graphic Designer', 'Music Producer']
+  const typedStrings = ['Principal Software Engineer', 'Researcher', 'Graphic Designer', 'Music Producer']
 
   return (
     <>
@@ -24,13 +24,14 @@ export default function About() {
               <div className="col-sm-12 col-md-8">
                 <div className="lead mb-5">
                   <p>
-                    I am a Senior Full Stack Engineer at{' '}
-                    <a href="https://ceto.ai/" target="_blank" rel="noreferrer noopener" className="text-dark">
-                      CetoAI
-                    </a>{' '}
-                    in Newcastle upon Tyne, UK. I develop hardware, software and cloud development operations for bringing AI innovations to maritime
-                    transportation. I am currently developing solutions to increase maritime fleet availability, cut carbon emissions and reduce
-                    operational risk across shipping fleets around the globe.
+                    I am a Principal Software Engineer at{' '}
+                    <a href="https://uk.leonardo.com/en/" target="_blank" rel="noreferrer noopener" className="text-dark">
+                      Leonardo UK
+                    </a>
+                    . I design and develop all-domain situational awareness solutions for the defence and aerospace industry. I have a PhD in Computer
+                    Science from the University of Northumbria at Newcastle, exploring the development and use of accessible IoT technologies and I
+                    have a background in both digital construction and digital maritime technologies. I have a passion for technology and enjoy
+                    working on a wide range of projects.
                   </p>
                 </div>
               </div>
